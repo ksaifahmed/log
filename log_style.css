@@ -1,7 +1,7 @@
 body{
     margin: auto;
-    min-width: 260px;
-    min-height: 500px;
+    min-width: 300px;
+    min-height: 620px;
     background-image: linear-gradient(rgb(0, 255, 255), rgb(253, 94, 169));
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -17,13 +17,13 @@ body{
 }
 
 .loginComp{
-    padding: 5px;
+	padding: 5px;
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
-    height: 635px;
-    background-image: url("log_img.jpeg");
+    width: 344px;
+    height: 600px;
+    background-image: url(log_img.jpeg);
     background-size: 100% 100%;
     animation-name: SlideInDown;
     animation-duration: 0.9s;
@@ -50,9 +50,9 @@ body{
     font-size: 17px;
     margin-left: 15px;
     margin-top: 75px;
-    padding: 10px;
-    width: 350px;
-    height: 20px;
+    padding: 9px;
+    width: 290px;
+    height: 18px;
     border: none;
     border-bottom: solid white 3px;
     border-radius: 20px;
@@ -73,9 +73,9 @@ input[type=text]:focus{
     font-size: 17px;
     margin-left: 15px;
     margin-top: 20px;
-    padding: 10px;
-    width: 350px;
-    height: 20px;
+    padding: 9px;
+    width: 290px;
+    height: 18px;
     border: none;
     border-bottom: solid white 3px;
     border-radius: 20px;
@@ -94,7 +94,7 @@ input[type=password]:focus{
 
 .loginComp > #loginButton{
     margin-top: 60px;
-    margin-left: 126px;
+    margin-left: 97px;
     width: 150px;
     height: 40px;
     border-radius: 20px;
@@ -110,10 +110,10 @@ input[type=password]:focus{
 
 @keyframes Appear{
     from{
-        opacity: 0.1;
+        opacity: 0.0;
     }
     to{
-        opacity: 0.8;
+        opacity: 1.0;
     }
 }
 
