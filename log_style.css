@@ -8,7 +8,7 @@ body{
 }
 
 @viewport{
-  width: device-width ;
+  width: device-width - 100px;
   zoom: 0.5 ;
 }
 
