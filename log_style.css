@@ -1,7 +1,7 @@
 body{
     margin: auto;
-    min-width: 265px;
-    min-height: 620px;
+    min-width: 260px;
+    min-height: 500px;
     background-image: linear-gradient(rgb(0, 255, 255), rgb(253, 94, 169));
     background-size: 100% 100%;
     background-attachment: fixed;
