@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Treasure Hunt</title>
+        <link rel="stylesheet" href="log_style.css">
+    </head>
+    
+    <body>
+        <div class="Main">
+            <div class="loginComp">
+                <h2 id="welcomeSign">HUNTERS WELCOME</h2>
+                <input type="text" id="username" placeholder="Username"<br>
+                <input type="password" id="pssword" placeholder="Password" style="-webkit-text-security: square;"><br>
+                <button id="loginButton">LOGIN</button>
+            </div>
+        </div>
+    </body>
+
+    <script>
+        var header1 = document.getElementById("welcomeSign");
+        var inpField1 = document.getElementById("username");
+        var inpField2 = document.getElementById("pssword");
+        var button = document.getElementById("loginButton");
+
+        header1.style.opacity = inpField1.style.opacity = inpField2.style.opacity = button.style.opacity = 0;
+        function setOp()
+        {
+            setTimeout(() => {
+                header1.style.opacity = inpField1.style.opacity = inpField2.style.opacity = button.style.opacity = 0.8;
+            }, 1399);
+        }
+        setOp();
+        
+    </script>
+
+
+
+</html>
